@@ -1,0 +1,23 @@
+#include <stdio.h>
+
+int main() 
+
+{
+  int a = 100;
+
+switch (a)
+{
+	case 1: printf("Is eqaul to 1");
+			break;
+	
+	case 5: printf("Is equal to 5");
+			break;
+
+	case 10: printf("Is equal to 10");
+				break;
+
+	default : printf("Not equal to anything");
+				break;
+}
+    return 0;
+}

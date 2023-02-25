@@ -1,0 +1,7 @@
+1. Create a function to print Welcome
+
+2. Create a function to display sum of two integers, printf() should be inside the function.
+
+3. Create a function to display square of 5
+
+4. Ask user to enter one number and then use the function to display square of it inside the function without returning any data to main function.

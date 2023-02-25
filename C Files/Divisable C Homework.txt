@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+int main() 
+{
+    int a;
+     a = 20000;
+     
+     if (a%1000==0)
+    {
+        printf("The number is divisable by 1000.");
+    }
+    else
+    {
+        printf("The number is not divisable by 1000.");
+    }
+    return 0;
+}

@@ -1,0 +1,22 @@
+// Online C compiler to run C program online
+#include <stdio.h>
+
+int main()
+
+{
+    int a;
+   
+    printf("How are you doing? Good=1 & Bad=2 \n:  ");
+    scanf("%d",&a);
+    if (a==1)
+    {
+        printf("Thank you for sharing! I am happy that you are feeling happy.");
+    }
+   
+    else
+    {
+        printf("Sorry that you are feeling bad!");
+    }
+    return 0;
+}
+

@@ -1,0 +1,20 @@
+// Online C compiler to run C program online
+#include <stdio.h>
+
+int fibonacci(int i)
+{
+    if(i<=0)
+    {
+        return 1;
+    }
+    return i * fibonacci(i +1);
+    
+}
+
+int main()
+{
+    
+    int i = 0;
+    printf("The Fibonacci squence is %d", fibonacci(i));
+    return 0;
+}

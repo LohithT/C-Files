@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+int add ()
+
+{
+    int a =10,b=20,c;
+    c=a+b;
+    printf ("The addition of the numbers is %d",c);
+    return 0;
+}
+int main() 
+{
+    add();
+    printf("\nEnd of Function");
+    return 0;
+}
+}

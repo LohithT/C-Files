@@ -1,0 +1,25 @@
+#include <stdio.h>
+
+int main() 
+
+{
+    float a = 100;
+    
+    if (a<20)
+    {
+        printf ("Less than 20");
+    }
+    else if (a>500)
+    {
+        printf("Greater than 5");
+    }
+    else if (a==1000)
+    {
+        printf("Is equal to 1000");
+    }
+    else
+    {
+        printf("Not less than 20 or greater than 500 or equal to 1000");
+    }
+    return 0;
+}

@@ -1,0 +1,26 @@
+// Online C compiler to run C program online
+#include <stdio.h>
+
+int swapl(int l, int b);
+
+int main()
+{
+    int a = 634643642, c = 542525;
+    
+    swapl(a, c);
+    
+    printf("a=%d c=%d\n", a, c);
+    
+    return 0;
+}
+
+int swapl(int l, int b)
+{
+    int d;
+    
+    d = l;
+    l = b;
+    b = d;
+    
+    printf("x=%d y=%d\n", l, b);
+}
